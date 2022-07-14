@@ -19,5 +19,6 @@ public class QueryProcessor {
         else {
             return "";
         }
+
     }
 }
