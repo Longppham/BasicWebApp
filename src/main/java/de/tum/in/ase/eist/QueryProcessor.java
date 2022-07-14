@@ -12,13 +12,12 @@ public class QueryProcessor {
                     "English poet, playwright, and actor, widely regarded as the greatest " +
                     "writer in the English language and the world's pre-eminent dramatist.";
         } else if (query.contains("name")) {
-           return "MyTeam";
+           return "Long";
         } else if(query.contains("Long ist ein")){
             return "GOTT";
         }
         else {
             return "";
         }
-
     }
 }
